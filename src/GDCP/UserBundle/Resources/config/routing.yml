@@ -1,0 +1,7 @@
+gdcp_user_homepage:
+    path:     /
+    defaults: { _controller: GDCPUserBundle:Default:index }
+
+gdcp_user_index:
+    path:    /user/index
+    defaults: { _controller: GDCPUserBundle:User:index }
