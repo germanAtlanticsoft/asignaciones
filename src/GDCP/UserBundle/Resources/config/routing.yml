@@ -5,3 +5,19 @@ gdcp_user_homepage:
 gdcp_user_index:
     path:    /user/index
     defaults: { _controller: GDCPUserBundle:User:index }
+    
+gdcp_user_add:
+    path:    /user/add
+    defaults: { _controller: GDCPUserBundle:User:add }
+    
+gdcp_user_edit:
+    path:    /user/edit/{id}
+    defaults: { _controller: GDCPUserBundle:User:edit }
+
+gdcp_user_view:
+    path:    /user/view/{id}
+    defaults: { _controller: GDCPUserBundle:User:view }
+
+gdcp_user_delete:
+    path:    /user/delete/{id}
+    defaults: { _controller: GDCPUserBundle:User:detele }
